@@ -65,13 +65,14 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-        background: url(../img/fundo.jpg) #12223F center center;
+        background: url(../img/fundo.jpg) #21478d center center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
    
      .basket{
         width: 300px;
+        margin-bottom: 20px;
     }
 
     .basket .tiquete{
@@ -96,7 +97,7 @@
     .times, .about{
         width: 280px;
         font-size: 1.3rem;
-        color: #000;
+        color: #fff;
         font-weight: bolder;
     }
 
@@ -118,6 +119,5 @@
         margin-top: 20px;
         margin: 6px;
         background-color: #10223fe8;
-        border-color: transparent;
     }
 }
