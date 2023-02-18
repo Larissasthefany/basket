@@ -5,7 +5,7 @@
         justify-content: center;
         margin:0 auto; 
         width: 100%;
-        background-color: #fff;
+        background-color: #fff; 
     }
 
     .card{
@@ -65,9 +65,9 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-        background: url(../img/basket.png) center center;
+        background: url(../img/fundo.jpg) #12223F center center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
    
      .basket{
@@ -79,32 +79,45 @@
         height: 100px;
         border-radius: 10px 0 0 10px;
         z-index: 2; 
+        background-color: #10223fa7;
     } 
 
     .basket .tiquete .title{
-        font-size: 2rem;
+        font-size: 2.6rem;
     }
 
     .basket .subtitulo{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         width: 146px;
         height: 100px;
-        opacity: 0.8;
         border-radius: 0 0 10px 10px;
     }
 
     .times, .about{
-        width: 270px;
-        font-size: 1.1rem;
+        width: 280px;
+        font-size: 1.3rem;
         color: #000;
-        font-weight: 700;
+        font-weight: bolder;
+    }
+
+    .times h3{
+        color: #e8e1e1;
+        letter-spacing: 2px;
     }
     
     .times span{
-        color: #dc0d0d;
+        color: rgba(255, 166, 0, 0.8);
+        font-size: 1.5rem;
     }
     
     .bola-de-basquete{
         display: none;
+    }
+
+    .redes-sociais i{
+        margin-top: 20px;
+        margin: 6px;
+        background-color: #10223fe8;
+        border-color: transparent;
     }
 }
